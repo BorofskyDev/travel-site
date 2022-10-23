@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1d3557;
+  background-color: #f1faee;
+}
+
+.home__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.4375em;
+  background-color: #1d3557;
+  color: #f1faee;
+  text-shadow: 0 0 2px #000;
+}
+
+.header__icon {
+  font-size: 1.5rem;
+  margin-right: 0.4375em;
+}
+
+.header__title {
+  font-size: 1rem;
+}
+
+.card {
+  margin: 2.5em 2.25em;
+  display: flex;
+  align-items: center;
+}
+
+.card__img{
+  width: 7.875em;
+  height: 10.5em;
+  object-fit: cover;
+  margin-right: 1.1875em;
+  border-radius: 0.3125em;
+}
+
+.card__header {
+  display: flex;
+}
+
+.card__icon {
+  color: #e63946;
+  font-size: 0.8rem;
+  margin-right: 0.25em;
+}
+
+.card__country {
+  font-size:0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+  margin-right: 0.75em;
+}
+
+.card__location-link{
+  font-size: 0.9rem;
+  color: #457b9d;
+}
+
+.card__title {
+  font-size: 2rem;
+  margin: 7px 0;
+}
+
+.card__date {
+  font-size: 0.8rem;
+  margin: 0.4375em 0;
+}
+
+.card__description {
+  font-size: 0.95rem;
+  max-width: 40em;
+}
