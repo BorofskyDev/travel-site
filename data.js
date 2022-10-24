@@ -8,7 +8,7 @@ export default [
     endDate: 'October, 2019',
     description:
       'The capital of Ukraine and one of the oldest cities in Eastern Europe,I spent a weekend in the city that birthed my surname (birthplace of my great-grandfather)',
-    imageUrl: './src/assets/images/kyiv.jpeg',
+    imageUrl: 'kyiv.jpeg',
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export default [
     endDate: 'November, 2019',
     description:
       'The old capital of Poland and an incredibly beautiful city. I spent three weeks there, the last city my great-grandmother passed through before comign to the US (Polish refugee) ',
-    imageUrl: './src/assets/images/krakow.jpeg',
+    imageUrl: 'krakow.jpeg',
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export default [
     endDate: 'October, 2017',
     description:
       'Went to visit a friend and loved both cities. Cardiff probably edges out Birmingham by virtue of being in Wales.',
-    imageUrl: './src/assets/images/birmingham.jpeg',
+    imageUrl: 'birmingham.jpeg',
   },
   {
     id: 4,
@@ -41,6 +41,6 @@ export default [
     endDate: 'January, 2020',
     description:
       'My second home, a place I visited at least once a year for a decade until COVID hit. I have many friends there and it is best described as paraidse on earth.',
-    imageUrl: './src/assets/images/zihua.jpeg',
+    imageUrl: 'zihua.jpeg',
   },
 ];

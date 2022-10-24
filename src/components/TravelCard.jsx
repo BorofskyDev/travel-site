@@ -1,11 +1,10 @@
 import React from 'react';
-import kyiv from '../assets/images/kyiv.jpeg';
 import { ImLocation } from 'react-icons/im';
 
 function TravelCard(props) {
   return (
     <div className="card">
-      <img src={`${props.imageUrl}`} alt="" className="card__img" />
+      <img src={`src/assets/images/${props.imageUrl}`} alt="" className="card__img" />
       <div className="card__container">
         <header className="card__header">
           <ImLocation className="card__icon" />
